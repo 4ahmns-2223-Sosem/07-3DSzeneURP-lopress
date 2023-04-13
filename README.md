@@ -9,6 +9,10 @@
 + Visual Studio 2019
 + Unity 2020.3.18f
 
+## Erste Einblicke:
+![grafik](https://user-images.githubusercontent.com/90834282/231729171-0206d0a3-5c3b-48d7-9fa6-abfd57dbb24b.png)
+
+
 ## Lessons learned:
 
 ## Limitations:
