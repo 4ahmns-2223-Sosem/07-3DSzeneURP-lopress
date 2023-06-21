@@ -18,8 +18,8 @@
 + Quellen: https://freesound.org/people/felix.blume/sounds/666250/ https://freesound.org/people/newlocknew/sounds/607148/ https://freesound.org/people/craftcrest/sounds/325244/ https://freesound.org/people/DaveJf/sounds/681721/ https://freesound.org/people/PatrickLieberkind/sounds/396024/
 
 ## Syntaxelemente:
-+ Methodendeklaration: Eine void Methode mit dem Namen InformationenAuftauchen (darin wird dann die if/else ausgeführt)
-+ if/else: Je nachdem wo man im Raum ist, erscheinen verschiedene Information. OnTriggerEnter -> „ich bin im Bereich1“ = true; Und dann: if Bereich1 = true dann sollen Infos erscheinen und Erklärstimme abspielen. If das ist false, dann soll es nicht mehr abspielen & wieder verschwinden.
++ Methodendeklaration: Eine void OnTriggerEnter Methode (darin wird dann das if-Statement ausgeführt)
++ If: If OnTriggerEnter -> if player tag, dann sollen Infos erscheinen und Erklärstimme abspielen. If das ist false, dann soll es nicht mehr abspielen & wieder verschwinden.
 + Enum: Welche Farbe hat der Erklärtext. Vier verschiedene Farben können ausgewählt werden. 
 + While: Je mehr Zeit vergeht, desto dunkler wird es. Damit wird dargestellt, dass je mehr Kohle wir verbrennen desto weiter bergab geht es.  
 
