@@ -1,8 +1,8 @@
 # 07-3DSzeneURP-lopress
 
 ## Beschreibung:
-+ 3D Szene für ein gemeinsames Schulprojekt.
-+ Eine informative VR Umgebung soll einem die Probleme eines Kohlekraftwerkes näherbringen. Man befindet sich auf dem Gelände eines solchen und kann sich mithilfe von kurzen Infopodcasts zu den verschiedenen Bereichen informieren.
++ 3D Szene für ein gemeinsames Schulprojekt zum Thema "Klima und Energie".
++ Eine informative VR Umgebung soll einem die verschiedenen Bereiche eines Kohlekraftwerkes näherbringen. Man befindet sich auf dem Gelände eines solchen und kann sich mithilfe von kurzen Infopodcasts zu den verschiedenen Bereichen informieren.
 
 ## Entwicklungsplattform:
 + Windows 11
@@ -16,6 +16,12 @@
 + Mono: Erklärstimme (Abbau, Kühltürme, Rohre, Wassererhitzung)
 + Stereo Loops: Wind,	Maschine, Melodie
 + Quellen: https://freesound.org/people/felix.blume/sounds/666250/ https://freesound.org/people/newlocknew/sounds/607148/ https://freesound.org/people/craftcrest/sounds/325244/ https://freesound.org/people/DaveJf/sounds/681721/ https://freesound.org/people/PatrickLieberkind/sounds/396024/
+
+## Syntaxelemente:
++ Methodendeklaration: Eine void Methode mit dem Namen InformationenAuftauchen (darin wird dann die if/else ausgeführt)
++ if/else: Je nachdem wo man im Raum ist, erscheinen verschiedene Information. OnTriggerEnter -> „ich bin im Bereich1“ = true; Und dann: if Bereich1 = true dann sollen Infos erscheinen und Erklärstimme abspielen. If das ist false, dann soll es nicht mehr abspielen & wieder verschwinden.
++ Enum: Welche Farbe hat der Erklärtext. Vier verschiedene Farben können ausgewählt werden. 
++ While: Je mehr Zeit vergeht, desto dunkler wird es. Damit wird dargestellt, dass je mehr Kohle wir verbrennen desto weiter bergab geht es.  
 
 
 ## Lessons learned:
