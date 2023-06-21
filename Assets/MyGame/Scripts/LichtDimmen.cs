@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class LichtDimmen : MonoBehaviour
 {
-    public Light targetLight; // Das zu beeinflussende Licht
-    public float dimmingAmount; // Die Menge, um die das Licht dunkler wird
-    public float dimmingInterval; // Das Intervall, in dem das Licht gedimmt wird (in Sekunden)
+    public Light targetLight;
+    public float dimmingAmount;
+    public float dimmingInterval;
 
     private void Start()
     {
-        // Starte den Dimming-Prozess in einem Coroutine
         StartCoroutine(DimLightRoutine());
     }
 
@@ -20,7 +19,6 @@ public class LichtDimmen : MonoBehaviour
         {
             yield return new WaitForSeconds(dimmingInterval);
 
-            // Verringere die Intensität des Lichts
             targetLight.intensity -= dimmingAmount;
         }
     }

@@ -5,16 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
-    void Start()
-    {
-        SceneSwitch();
-    }
+    public string targetScene;
 
-
-    private void SceneSwitch()
+    private void OnMouseDown()
     {
-        
-        //SceneManager.LoadScene("TestScene");
-        Debug.Log("Scene switcht");
+        //SceneManager.LoadScene(targetScene);
     }
 }
