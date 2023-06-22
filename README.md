@@ -20,14 +20,17 @@
 + Quellen: https://freesound.org/people/felix.blume/sounds/666250/ https://freesound.org/people/newlocknew/sounds/607148/ https://freesound.org/people/craftcrest/sounds/325244/ https://freesound.org/people/DaveJf/sounds/681721/ https://freesound.org/people/PatrickLieberkind/sounds/396024/
 
 ## Syntaxelemente:
-+ Methodendeklaration: Eine void OnTriggerEnter Methode (darin wird dann das if-Statement ausgeführt) 
-+ If: If OnTriggerEnter -> if player tag, dann sollen Infos erscheinen und Erklärstimme abspielen. If das ist false, dann soll es nicht mehr abspielen & wieder verschwinden.
-+ Enum: Welche Farbe hat der Erklärtext. Vier verschiedene Farben können ausgewählt werden. 
-+ While: Je mehr Zeit vergeht, desto dunkler wird es. Damit wird dargestellt, dass je mehr Kohle wir verbrennen desto weiter bergab geht es.  
-
++ Methodendeklaration (script: "IfUndMethodeInfos"): Eine void OnTriggerEnter Methode -> wenn der Trigger betreten wird, passiert etwas (darin wird dann das if-Statement ausgeführt) 
++ If (script: "IfUndMethodeInfos"): If der tag ist Player, dann sollen Infos erscheinen und Erklärstimme abspielen. If false, dann soll es nicht mehr abspielen & wieder verschwinden.
++ Enum (script: "EnumFarbauswahl"): Welche Farbe hat der Erklärtext. Vier verschiedene Farben können ausgewählt werden. 
++ While (script: "WhileLichtDimmen"): Je mehr Zeit vergeht, desto dunkler wird es. Damit wird dargestellt, dass je mehr Kohle wir verbrennen desto weiter bergab geht es.  
 
 ## Lessons learned:
+[x] mit git pushen/pullen
+[x] Enums programmieren
+[x] Scenes mit Hilfe eines Buttons switchen
 
-## Limitations:
+## Limitationen:
+eigentlich keine mehr :)
 
 copyright by lopress
