@@ -26,9 +26,9 @@
 + While (script: "WhileLichtDimmen"): Je mehr Zeit vergeht, desto dunkler wird es. Damit wird dargestellt, dass je mehr Kohle wir verbrennen desto weiter bergab geht es.  
 
 ## Lessons learned:
-[x] mit git pushen/pullen
-[x] Enums programmieren
-[x] Scenes mit Hilfe eines Buttons switchen
+- [x] mit git pushen/pullen
+- [x] Enums programmieren
+- [x] Scenes mit Hilfe eines Buttons switchen
 
 ## Limitationen:
 eigentlich keine mehr :)
