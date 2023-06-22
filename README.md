@@ -2,7 +2,7 @@
 
 ## Beschreibung:
 + 3D Szene für ein gemeinsames Schulprojekt zum Thema "Klima und Energie".
-+ Eine informative VR Umgebung soll einem die verschiedenen Bereiche eines Kohlekraftwerkes näherbringen. Man befindet sich auf dem Gelände eines solchen und kann sich mithilfe von kurzen Infopodcasts zu den verschiedenen Bereichen informieren.
++ Eine informative VR Umgebung soll einem die verschiedenen Bereiche eines Kohlekraftwerkes näherbringen. Man befindet sich auf dem Gelände eines solchen und kann sich mithilfe von kurzen Infopodcasts zu den verschiedenen Bereichen informieren. Dazu muss man zu den roten Infoständern gehen - sobald man in der Nähe eines solchen ist, aktiviert sich ein Text und das Audio wird aktiviert. Sobald man diesen Bereich wieder verlässt, wird beides wieder deaktiviert.
 
 ## Entwicklungsplattform:
 + Windows 11
