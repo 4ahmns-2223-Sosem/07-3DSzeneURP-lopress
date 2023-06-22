@@ -33,5 +33,5 @@
 ## Limitationen:
 eigentlich keine mehr :)
 
-## copyright 
+## Copyright:
 by lopress
