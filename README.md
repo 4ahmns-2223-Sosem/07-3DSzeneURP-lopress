@@ -10,7 +10,7 @@
 + Visual Studio 2019
 + Unity 2020.3.18f
 
-## Einblicke ins Spiel:
+## Einblicke ins Konzept und Game:
 ![grafik](https://user-images.githubusercontent.com/90834282/231729171-0206d0a3-5c3b-48d7-9fa6-abfd57dbb24b.png)
 ![Screenshot 2023-06-22 120540](https://github.com/4ahmns-2223-Sosem/07-3DSzeneURP-lopress/assets/90834282/ff79ad6f-2d0a-413a-b06e-0f2a0fdbe2ac)
 
